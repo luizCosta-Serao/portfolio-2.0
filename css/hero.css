@@ -52,3 +52,44 @@
   opacity: 1;
   background-color: #E8CD3A;
 }
+
+@media (max-width: 876px) {
+  .imgs-hero a img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .foto-hero {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero h2 {
+    font-size: 40px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgs-hero a img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .foto-hero {
+    width: 125px;
+    height: 125px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+}
