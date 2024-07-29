@@ -17,3 +17,28 @@ a {
   color: inherit;
   display: inline-block;
 }
+
+.title {
+  color: #3D3D3D;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: '';
+  width: 8px;
+  height: 33px;
+  background-color: #F6DD54;
+  display: inline-block;
+  position: relative;
+  right: 10px;
+}
+
+@media (max-width:500px) {
+  .title {
+    font-size: 32px;
+  } 
+}
